@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "Mijozlar bilan doimiy va samarali aloqa – mening ustuvorligim",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Turli vaqt zonalarida ishlashga moslashuvchanman",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,8 +28,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "Tech Stackim",
+    description: "React, Next.js, Node.js, PostgreSQL, Tailwind va boshqalar",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Frontend va AI texnologiyalariga qiziqaman",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -46,11 +46,10 @@ export const gridItems = [
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
-
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Hozirda AI mood tracking dasturida ishlayapman",
+    description: "Daily MoodBoard loyihasi",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,7 +58,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Biror loyiha ustida hamkorlik qilmoqchimisiz?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -72,146 +71,127 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "EduPro – Online Learning Platform",
+    des: "A full-stack exam and student management platform for learning centers.",
+    img: "https://d33wubrfki0l68.cloudfront.net/a72c5225705ff43d8db342283e13069b8f9d916a/3aa6a/img/logo.png",
+    iconLists: ["/re.svg", "/node.svg", "/ts.svg", "/pg.svg", "/tail.svg"],
+    link: "https://edupro.mehriddin.uz",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "MoodBoard – Daily Mood Tracker",
+    des: "Track daily mood using emojis and notes with a beautiful interface.",
+    img: "https://static.thenounproject.com/png/21878-200.png",
+    iconLists: ["/re.svg", "/ts.svg", "/tail.svg", "/node.svg", "/pg.svg"],
+    link: "https://moodboard.mehriddin.uz",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Event Venue Booking System",
+    des: "A role-based system for booking wedding/event venues (admin/owner/user).",
+    img: "https://www.theknot.com/tk-media/images/a5ab8a8f-071d-49b8-a9d0-46e22c1a9ab3",
+    iconLists: ["/next.svg", "/ts.svg", "/tail.svg", "/node.svg"],
+    link: "https://venue.mehriddin.uz",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Fun Fullstack AI Project",
+    des: "A creative project built with AI tools and modern web technologies.",
+    img: "https://www.funproject.it/wp-content/uploads/2024/03/Logo.2_Tavola-disegno-1.png",
+    iconLists: ["/re.svg", "/ts.svg", "/lovable.svg"],
+    link: "https://fun-ai.mehriddin.uz",
   },
 ];
+
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Mehriddin bilan ishlash juda yoqimli tajriba bo‘ldi. U juda puxta, o‘z ishiga mas’uliyat bilan yondashadi.",
+    name: "Xurshidbek Quvanov",
+    title: "Senior Developer, UzVIP Software",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "U o‘z vaqtida va sifatli loyihalarni yetkazib berishga doim intiladi. Har doim yangi texnologiyalarni o‘rganishga ochiq.",
+    name: "PDP Mentori",
+    title: "Mentor & Teacher",
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "UzVIP Software",
+    img: "/uzvip.svg",
+    nameImg: "/uzvipName.svg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "PDP Academy",
+    img: "/pdp.svg",
+    nameImg: "/pdpName.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "Codik",
+    img: "/codik.svg",
+    nameImg: "/codikName.svg",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "Freelance Clients",
+    img: "/freelance.svg",
+    nameImg: "/freelanceName.svg",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend Developer Intern",
+    desc: "Worked at UzVIP Software on real production-level React.js projects.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "https://img.hhcdn.ru/employer-logo/5837482.png",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "AI + Web Creative Project",
+    desc: "Built a fullstack AI-powered application using no-code tools and custom logic.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Freelance Developer",
+    desc: "Delivered custom platforms for clients including exam systems and booking apps.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "PDP Teacher Assistant (In Progress)",
+    desc: "Undergoing technical interview for a frontend assistant teaching role at PDP Academy.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
 ];
 
+
 export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/MehriddinBarnoyev",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "https://www.iconpacks.net/icons/3/free-telegram-icon-5945-thumb.png",
+    link: "https://t.me/@M_BarnoyevDev",
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png",
+    link: "https://www.linkedin.com/in/mehriddin-barnoyev-78a016294/",
   },
 ];
